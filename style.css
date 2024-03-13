@@ -8,6 +8,10 @@
 }
 body {
   background-color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0;
 }
 
 header {
@@ -38,6 +42,10 @@ header {
   color: rgb(129, 25, 25);
 }
 
+.home-content {
+  color: white;
+  /* text-align: center; 글자 사진의 중간 밑으로 보내고싶음;*/
+}
 .home {
   background: url("portfolio/photo.jpg") no-repeat center;
   background-size: cover;
@@ -66,6 +74,19 @@ header {
   display: flex;
   align-items: center;
 }
-.footer {
-  text-align: row;
+
+/* footer  {
+  font-size: 15px;
+  color: black;
+  text-decoration: none;
+} */
+div#ft {
+  float: left;
+  /* width: 100%;
+  display: inline-flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  font-size: 15px;
+  color: black;
+  text-decoration: none; */
 }
