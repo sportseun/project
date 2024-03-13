@@ -41,9 +41,18 @@ header {
   color: rgb(129, 25, 25);
 }
 
+/* .login-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #fff;
+  padding: 20px; */
+
 .login-container{
-  width:300px;
-  margin:350px auto;
+  position: fixed;
+  bottom: 45px;
+  right:70px;
+  padding: 300px;
 }
 .login-container h2 {
   margin-bottom: 30px;
