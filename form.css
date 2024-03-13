@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Libre Franklin", sans-serif;
+
+body {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 13px 10%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+.navbar a {
+  font-size: 15px;
+  color: black;
+  text-decoration: none;
+  font-weight: 200;
+  margin-left: 35px;
+  position: relative;
+}
+.narbar a {
+  transition: 0.3s;
+}
+.narbar a:hover,
+.narbar a.active ::before {
+  color: rgb(129, 25, 25);
+}
+
+.login-container{
+  width:300px;
+  margin:350px auto;
+}
+.login-container h2 {
+  margin-bottom: 30px;
+  text-align:left;
+}
+.input-group {
+  margin-bottom: 12px;
+  text-align:left;
+}
+
+button {
+  width: 80%;
+  padding: 10px;
+  background-color: #653269;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 100px;
+  margin-top:7px;
+}
+
+/* .login-container {
+  width: 300px;
+  margin: 100px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h2 {
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+} */
