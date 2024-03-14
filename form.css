@@ -49,10 +49,9 @@ header {
   padding: 20px; */
 
 .login-container{
-  position: fixed;
-  bottom: 45px;
-  right:70px;
-  padding: 300px;
+  width:300px;
+  margin: 270px auto;
+  padding: 20px;
 }
 .login-container h2 {
   margin-bottom: 30px;
@@ -64,17 +63,19 @@ header {
 }
 
 button {
-  width: 80%;
+  width: 100%;
   padding: 10px;
-  background-color: #653269;
+  background-color: #999b79d8;
   color: #fff;
   border: none;
-  border-radius: 5px;
+  border-radius: 0px;
   cursor: pointer;
   margin-right: 100px;
   margin-top:7px;
 }
-
+button:hover {
+  background-color: #000000;
+}
 /* .login-container {
   width: 300px;
   margin: 100px auto;
