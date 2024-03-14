@@ -12,7 +12,29 @@ body {
   flex-direction: column;
   text-align: center;
   margin: 0;
+  color: black;
 }
+.home h1 {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 80px;
+  width: 320px;
+  height: 180px;
+  margin: 0 auto;
+  text-align: center;
+}
+.home h1 a {
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  position: relative;
+}
+
+/* .scroll-elemnt {
+  opacity: 1;
+  transition: opacity 5s ease;
+} */
 
 header {
   position: fixed;
@@ -26,11 +48,6 @@ header {
   align-items: center;
   z-index: 100;
 }
-/* @keyframes underline {
-  100% {
-    width: 0;
-    animation-duration: 2s;
-  } */
 
 .navbar a {
   font-size: 17px;
@@ -45,9 +62,15 @@ header {
 }
 
 .home-content {
-  color: white;
+  display: flex;
+  align-items: center;
+  height: 200px;
   /* text-align: center; 글자 사진의 중간 밑으로 보내고싶음;*/
 }
+.home-content h1 {
+  margin: 0;
+}
+
 .home {
   background: url("portfolio/photo.jpg") no-repeat center;
   background-size: cover;
@@ -87,13 +110,19 @@ footer {
 }
 footer h3 {
   line-height: 35px;
+  color: black;
 }
 footer ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
   line-height: 23px;
+  display: inline-block;
 }
+.footer ul li:first-child {
+  margin-left: 0;
+}
+
 footer ul li {
   display: flex;
   text-align: left;
@@ -128,11 +157,13 @@ footer div {
 select {
   width: 200px; /* 너비 조절 */
   height: 30px; /* 높이 조절 */
+  margin-left: 11px;
 }
 .container {
   display: flex;
   align-items: center;
 }
 .container i {
-  margin-right: px; /* 아이콘 오른쪽에 10px 간격 추가 */
+  width: 32px;
+  height: 32px;
 }
