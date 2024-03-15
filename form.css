@@ -43,7 +43,7 @@ header {
   position: absolute;
   top: 0.5%;
   left: 0;
-  width: 100%;
+  width: 200%;
   height: 0.7px;
   background-color: black;
   transform: translateX(0%);
