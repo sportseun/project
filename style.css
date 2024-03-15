@@ -22,7 +22,7 @@ body {
   height: 10px;
   margin: auto;
   text-align: center;
-  animation: fadeIn 2.5s ease-in-out forwards;
+  animation: fadeIn 4s ease-in-out forwards;
 }
 
 @keyframes fadeIn {
