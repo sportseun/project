@@ -33,7 +33,7 @@ header {
 }
 
 .line {
-  display: inline-block;
+  display: fixed;
   position: relative;
   text-align: center;
   /* margin-top: 80px; */
