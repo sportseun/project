@@ -55,6 +55,26 @@ header {
   z-index: 100;
 }
 
+.nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media only screen and (min-width: 768px) {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media only screen and(max-width:767px) {
+  nav {
+    display: block;
+    text-align: center;
+  }
+  nav a {
+    display: block;
+    padding: 10px;
+  }
+}
 .navbar a {
   font-size: 17px;
   color: black;
