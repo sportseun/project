@@ -16,13 +16,13 @@ body {
 }
 header {
   position: fixed;
+  display: flex;
   top: 0;
   left: 0;
   width: 100%;
   margin: 5px;
   padding: 13px 10%;
   background-color: white;
-  display: flex;
   justify-content: space-between;
   align-items: center;
   z-index: 100;
@@ -47,7 +47,7 @@ header {
   }
 }
 
-@media only screen and(max-width:767px) {
+@media only screen and(max-width:768px) {
   nav {
     display: block;
     text-align: center;
