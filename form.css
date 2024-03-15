@@ -29,7 +29,7 @@ header {
 }
 .header-line {
   border-top: 1px solid #000; /* 선의 스타일을 설정 */
-  margin: 5px 0;
+  margin: 1px 0;
 }
 .navbar {
   padding-left: 500px;
@@ -75,7 +75,7 @@ header {
   display: inline-block;
   position: relative;
   text-align: center;
-  margin-top: 77px;
+  margin-top: 80px;
 }
 .line::after {
   content: "";
