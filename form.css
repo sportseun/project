@@ -117,7 +117,7 @@ button {
   padding: 10px;
   background-color: #ffffffd8;
   color: #000000;
-  border: 1;
+  border: 1px solid black;
   border-width: 1px;
   border-radius: 0px;
   cursor: pointer;
