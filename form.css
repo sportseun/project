@@ -86,7 +86,7 @@ header {
 
 .login-container {
   width: 300px;
-  margin: 180px auto;
+  margin: 150px auto;
   padding: 20px;
   animation: fadeIn 3s ease;
   z-index: 10;
