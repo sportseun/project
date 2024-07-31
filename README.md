@@ -2,6 +2,6 @@
 
 - HTML, CSS를 이용한 홈페이지 및 로그인 페이지 제작
 - JACQUEMUS https://www.jacquemus.com/en_kr (원본사이트)를 보고 제작함
-- JACQUEMUS (sportseun.github.io)
+- [JACQUEMUS (sportseun.github.io)](https://sportseun.github.io/project/)
 
 🕶👕👗👚👠👜👒
